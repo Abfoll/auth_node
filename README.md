@@ -42,7 +42,7 @@ The app reads configuration from environment variables (or from `config/default.
 Important variables:
 
 - `MONGO_URI` — full MongoDB connection string (preferred). Example for Atlas:
-  `mongodb+srv://abeni:REPLACEME@cluster0.example.mongodb.net/mydatabase?retryWrites=true&w=majority`
+  
 - `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `DB_CLUSTER` — optional: the app can build a URI if these are set (passwords will be URL-encoded).
 - `SESSION_SECRET` — a long random string used to sign session cookies. Generate one with:
   ```bash
