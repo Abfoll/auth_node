@@ -1,0 +1,4 @@
+{
+	"mongoURI": "",
+	"SESSION_SECRET": "change_this_in_production"
+}
