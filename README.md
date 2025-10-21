@@ -89,9 +89,3 @@ Do NOT commit `.env` to version control. `.env.example` is included as a templat
 This project has no license file. Add one if you plan to publish.
 
 ---
-
-If you want, I can also:
-- Add a short `CONTRIBUTING.md` and `.github/workflows/nodejs.yml` for basic CI.
-- Create a production `systemd` unit or `pm2` start script.
-
-Tell me which next step you prefer.
